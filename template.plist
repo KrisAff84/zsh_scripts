@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.shinokada.covid19</string>
+        <key>Program</key>
+        <string>/Users/shinokada/DataScience/covid-19-stats/covid19-launchd</string>
+        <key>EnvironmentVariables</key>
+        <dict>
+            <key>PATH</key>
+            <string>/bin:/usr/bin:/usr/local/bin</string>
+        </dict>
+        <key>StandardInPath</key>
+        <string>/tmp/covid.stdin</string>
+        <key>StandardOutPath</key>
+        <string>/tmp/covid.stdout</string>
+        <key>StandardErrorPath</key>
+        <string>/tmp/covid.stderr</string>
+        <key>WorkingDirectory</key>
+        <string>/Users/shinokada/DataScience/covid-19-stats</string>
+        <key>StartCalendarInterval</key>
+        <dict>
+            <key>Hour</key>
+            <integer>8</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </dict>
+</plist>

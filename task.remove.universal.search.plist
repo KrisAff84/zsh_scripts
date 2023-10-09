@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>      <!-- This is a required key, the name of the task -->
+    <string>task.remove.universal.search</string>
+    <key>Program</key>    <!-- This is a required key, the path to the executable to be run, unless ProgramArguments is used instead -->
+    <string>/Users/Kris/Git_Repos/zsh_scripts/remove_file.zsh</string>
+    <key>KeepAlive</key>   <!-- This optional key specifies whether your daemon is to be kept running continuously -->
+    <false/>
+    <key>StartInterval</key>   <!-- This optional key causes the job to be started every n seconds -->
+    <integer>1800</integer>
+</dict>
+</plist>
